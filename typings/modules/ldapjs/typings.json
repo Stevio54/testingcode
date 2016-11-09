@@ -1,0 +1,11 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/types/npm-ldapjs/ed398e8dadce2dba719a9bc57e7879de82c17aa9/typings.json",
+    "raw": "registry:npm/ldapjs#1.0.0+20160917165644",
+    "main": "lib/index.d.ts",
+    "version": "1.0.0",
+    "name": "ldapjs",
+    "type": "typings"
+  }
+}

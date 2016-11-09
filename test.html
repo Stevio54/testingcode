@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>test</title>
+		<script src="https://code.jquery.com/jquery-3.1.1.js""></script>
+		<script>
+			$(document).ready(function() {
+				setInterval("ajaxd()",5000); // call every 5 seconds
+			});
+
+			function ajaxd() {
+				$("#vmlisting").load("testtable.html", function(){});
+			}
+		</script>
+	</head>
+<body>
+<div id="vmlisting"></div>
+</body>
+</html>
